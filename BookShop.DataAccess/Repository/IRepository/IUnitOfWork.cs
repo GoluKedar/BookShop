@@ -13,10 +13,10 @@ namespace BookShop.DataAccess.Repository.IRepository
         ICoverTypeRepository CoverType { get; }
          IProductRepository Product { get; }
         ICompanyRepository Company { get; }
-        /* IApplicationUserRepository ApplicationUser { get; }
-         IShoppingCartRepository ShoppingCart { get; }
-         IOrderHeaderRepository OrderHeader { get; }
-         IOrderDetailsRepository OrderDetails { get; }*/
+         IApplicationUserRepository ApplicationUser { get; }
+        /*IShoppingCartRepository ShoppingCart { get; }
+        IOrderHeaderRepository OrderHeader { get; }
+        IOrderDetailsRepository OrderDetails { get; }*/
 
         void Save();
     }
